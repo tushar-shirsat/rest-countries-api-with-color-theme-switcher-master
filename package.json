@@ -1,0 +1,25 @@
+{
+  "name": "rest-countries-api-with-color-theme-switcher-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the REST Countries API with color theme switcher coding challenge](./design/desktop-preview.jpg)",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.14.2",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "init": "webpack server --mode development --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
